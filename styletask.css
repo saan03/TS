@@ -1,0 +1,229 @@
+/*I have used external css*/
+/*I have added background color and height properties to the body*/
+body {
+    background-color: #EDECE8;
+    height: 100%;
+}
+
+/*I have added width,heigth and margin properties to the logo class*/
+.logo {
+    width: 110px;
+    height: 70px;
+    margin: 10px 35px;
+}
+
+/*I have added text-decoration,color,font-family,font-style and font-size properties to the anchor tag*/
+a {
+    text-decoration: none;
+    color: #625548;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+/*I have added sticky positioning to the header tag*/
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    right: 60px;
+    background-color: #EDECE8;
+}
+
+/*I have added margin-left property to the navigation tag*/
+nav {
+    margin-left: 450px;
+}
+
+/*I have added inline-block display to the poster id*/
+#poster {
+    width: 400px;
+    height: 580px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*I have added display flex property to the footer tag*/
+footer {
+    position: fixed;
+    bottom: 0px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*I have added padding and cursor properties to the button tag*/
+button {
+    padding: 15px;
+    cursor: pointer;
+}
+
+/*I have added background-color,border,color and font-family properties to cookie class*/
+.cookie {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*I have added background-color,border,color and font-family properties to all class*/
+.all {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*I have added display flex property to footer_buttons id*/
+#footer_buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/*I have added width,height,font-size,color,font-family properties to button1 class*/
+.button1 {
+    width: 310px;
+    height: 55px;
+    font-size: 20px;
+    color: #625548;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*I have added a hover effect*/
+.button1 :hover {
+    background-color: #8B847B;
+
+}
+
+/*I have added display flex, relative positioing and other properties to headings class*/
+.headings {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8B847B;
+    font-size: 35px;
+    display: inline-block;
+    width: 300px;
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+}
+
+/*I have added font-family,padding,background-color,text-align properties to projects class*/
+.projects {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px 15px;
+    background-color: #EDECE8;
+    text-align: center;
+}
+
+/*I have added font-size,margin-bottom,color properties to title class*/
+.title {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #8B847B;
+}
+
+/*I have added display flex property to container class*/
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/*I have added display flex, relative positioing and other properties to item class*/
+.item {
+    width: 300px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px gainsboro;
+}
+
+/*I have added width and height properties to image in item class*/
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+/*I have added absolute positioning,opacity,transition and other properties to info class*/
+.info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+    background-color: #7B746A;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-align: center;
+}
+
+/*I have added height to empty class*/
+.empty {
+    height: 120px;
+}
+
+/*I have added opacity*/
+.item:hover .info {
+    opacity: 0.8;
+}
+
+/*I have added font-size and margin-bottom properties to h2 tag of info class*/
+.info h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+/*I have added font-size property to p tag of info class*/
+.info p {
+    font-size: 20px;
+}
+
+/*I have added font-size property to now id*/
+#now {
+    font-size: 30px;
+}
+
+/*I have added text-align, white-space properties to section tag*/
+section {
+    text-align: center;
+    white-space: nowrap;
+}
+
+/*I have added inline-block display, relative positioning and other properties to sign id*/
+#sign {
+    font-family: 'Times New Roman', Times, serif;
+    color: #8B847B;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    top: 5px;
+}
+
+/*I have added font-size property to h1 tag in aside*/
+aside h1 {
+    font-size: 40px;
+}
+
+/*I have added font-size property to p tag in aside*/
+aside p {
+    font-size: 20px;
+}
